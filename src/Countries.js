@@ -108,15 +108,15 @@ class Countries extends Component {
                   <h2>{country.name}</h2>
                 </Link>
                 <p className="p-tag">
-                  <span className="font-bold "> Population: </span>
+                  <span className="font-bold p-tag"> Population: </span>
                   {country.population.toLocaleString("en-US")}
                 </p>
                 <p className="p-tag">
-                  <span className="font-bold "> Region: </span>
+                  <span className="font-bold p-tag"> Region: </span>
                   {country.region}
                 </p>
                 <p className="p-tag">
-                  <span className="font-bold"> capital: </span>
+                  <span className="font-bold p-tag"> capital: </span>
                   {country.capital}
                 </p>
               </div>
